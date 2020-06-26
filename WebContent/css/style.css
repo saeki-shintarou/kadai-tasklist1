@@ -17,13 +17,14 @@ body {
     padding-left: 3%;
 }
 
+/* ...（中略）... */
+
 h1 {
-    width: 94%;
-    padding-top: 17px;
-    padding-left: 3%;
     font-size: 24px;
-    color: #eeeeee;
+    display: inline;
 }
+
+/* ...（中略）... */
 
 h2 {
     font-size: 36px;
@@ -88,10 +89,8 @@ tr.row1 {
 tr.row0 {
         background-color: #ffffff;
 }
-select{
-	height :30px;
-}
-
+select {
+    height: 30px;
 }
 #header_menu {
     width: 57%;
@@ -134,4 +133,7 @@ table#report_list .report_title {
 
 table#report_list .report_action {
     width: 13%;
+}
+pre {
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
 }
